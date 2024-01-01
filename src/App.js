@@ -38,9 +38,6 @@ function App() {
             date={Date.now() + timeLeft()}
             onComplete={() =>
               setNewYearMessage([
-                "Selamat",
-                "Tahun",
-                "Baru",
                 "✨HAPPY NEW YEAR 2024✨",
               ])
             }
